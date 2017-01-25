@@ -13,6 +13,8 @@
 		DEB657521E362FD5005B0E1D /* CustomPickerView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DEB657501E362FD4005B0E1D /* CustomPickerView.xcdatamodeld */; };
 		DEB657541E362FD5005B0E1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEB657531E362FD5005B0E1D /* Assets.xcassets */; };
 		DEB657571E362FD5005B0E1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB657551E362FD5005B0E1D /* LaunchScreen.storyboard */; };
+		DEB6575F1E3631A1005B0E1D /* AddTeachingGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB6575E1E3631A1005B0E1D /* AddTeachingGroupViewController.swift */; };
+		DEB657631E37C1F8005B0E1D /* PrototypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB657621E37C1F8005B0E1D /* PrototypeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DEB657531E362FD5005B0E1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEB657561E362FD5005B0E1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEB657581E362FD5005B0E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEB6575E1E3631A1005B0E1D /* AddTeachingGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTeachingGroupViewController.swift; sourceTree = "<group>"; };
+		DEB657621E37C1F8005B0E1D /* PrototypeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrototypeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				DEB657491E362FD4005B0E1D /* AppDelegate.swift */,
 				DEB6574B1E362FD4005B0E1D /* ViewController.swift */,
+				DEB6575E1E3631A1005B0E1D /* AddTeachingGroupViewController.swift */,
+				DEB657621E37C1F8005B0E1D /* PrototypeCell.swift */,
 				DEB6574D1E362FD4005B0E1D /* Main.storyboard */,
 				DEB657531E362FD5005B0E1D /* Assets.xcassets */,
 				DEB657551E362FD5005B0E1D /* LaunchScreen.storyboard */,
@@ -140,8 +146,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEB6574C1E362FD4005B0E1D /* ViewController.swift in Sources */,
+				DEB657631E37C1F8005B0E1D /* PrototypeCell.swift in Sources */,
 				DEB6574A1E362FD4005B0E1D /* AppDelegate.swift in Sources */,
 				DEB657521E362FD5005B0E1D /* CustomPickerView.xcdatamodeld in Sources */,
+				DEB6575F1E3631A1005B0E1D /* AddTeachingGroupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +311,7 @@
 				DEB6575D1E362FD5005B0E1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
